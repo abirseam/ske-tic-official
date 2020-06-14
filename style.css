@@ -112,7 +112,7 @@ body{
 	text-align: center;
 	font-size: 250%;
 	width: 220px;
-	padding: 20px;
+	padding: 10px;
 	margin: 50px auto;
 	margin-bottom: 15px;
 	border-radius: 50px;
@@ -134,7 +134,10 @@ body{
 }
 @media (max-width: 720px) {
 	#header{
-	visibility: collapse;    }
+	font-size: 1.1em;   }
+	#header ul li a{
+		padding: 3px;
+	}
 	#main{
 		
 		background:white;}
